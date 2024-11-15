@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me!</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .nav-menu {
+            list-style-type: none;
+            padding: 10px;
+            margin: 10px;
+            display: inline-flex;
+            gap: 10px;
+        }
+        .nav-menu li {
+            display: inline;
+        }
+        .nav-menu a {
+            background-color: #F55379;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .nav-menu a:hover {
+            background-color: #E75480;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            width: 100px;
+        }
+    </style>    
+</head>
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="C:/Users/ASUS/Downloads/sunset.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="PROFILE.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1><i>About Me!</i></h1>
+        <p>
+            <img src="C:/Users/ASUS/Downloads/A N D R E A.PNG" alt="Andrea's Image">
+            <ol>I am currently an ICT student at Antipolo National High School and willing to learn about programming, web development, and so on.</ol>
+            <ul>ICT was not my first choice when I was young, because I really love cooking and I want to be a chef someday. But as the time went on I was confused about what to take, I asked my family and some of my friends half of them said that I should do ICT and the other half said I should pursue chef. But here I am pursuing the chosen strand.</ul>
+            <audio src="C:/Users/ASUS/Downloads/LANY_DNA.mp3" controls autoplay loop>
+                Your browser does not support the audio element.
+            </audio>
+        </p>
+    </div>
+</body>
+</html>
