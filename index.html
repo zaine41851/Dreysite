@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreyasite</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .nav-menu {
+            list-style-type: none;
+            padding: 10px;
+            margin: 10px;
+            display: inline-flex;
+            gap: 10px;
+        }
+        .nav-menu li {
+            display: inline;
+        }
+        .nav-menu a {
+            background-color: #E75480;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .nav-menu a:hover {
+            background-color: #F55379;
+            text-decoration: underline;
+        }
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="C:/Users/ASUS/Downloads/sunset.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="content">
+        <h1>Welcome to Andrea's space</h1>
+        <a href="https://ibb.co/W2GB6HH"><img src="https://i.ibb.co/jrb3T88/A-N-D-R-E-A.png" alt="A-N-D-R-E-A" border="0"></a>
+        <p>
+            <ol><h3><i>Hi there! I'm glad you're here, thank you for visiting my website. I'm Andrea Ramirez from ICT 1102.</ol></h3></i>
+            <ul><h3><i> The owner of this website, and currently learning how to develop a website.</ul></h3></i>
+        </p> 
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="PROFILE.html">Home</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100039315640093">My Profile</a></li>
+                <li><a href="file:///C:/Users/ASUS/Desktop/Dreyasite/About%20me.html">About Me</a></li>
+                <li><a href="file:///C:/Users/ASUS/Desktop/Dreyasite/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <p><i>For I know the plans I have for you declares the Lord plans to prosper you and not to harm you, plans to give you hope and a future.</i></p>
+        </div>
+        <audio src="C:/Users/ASUS/Downloads/DNA By Lany audio.mp3" controls autoplay loop>
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
